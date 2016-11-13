@@ -127,6 +127,8 @@
   <extend-property name="locale" values="sv"/>
   <!-- Portuguese (Brazilian) -->
   <extend-property name="locale" values="pt_BR"/>
+  <!-- Portuguese -->
+  <extend-property name="locale" values="pt_PT"/>
 
   <set-property-fallback name="locale" value="en"/>
 

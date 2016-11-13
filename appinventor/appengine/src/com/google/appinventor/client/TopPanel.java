@@ -251,6 +251,8 @@ public class TopPanel extends Composite {
       nativeName = MESSAGES.SwitchToSwedish();
     } else if (localeName == "pt_BR") {
       nativeName = MESSAGES.switchToPortugueseBR();
+    } else if (localeName == "pt_PT") {
+      nativeName = MESSAGES.SwitchToPortuguesePT();
     }
     return nativeName;
   }
