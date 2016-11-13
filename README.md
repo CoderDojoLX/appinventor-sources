@@ -1,3 +1,27 @@
+#Tradução do MIT App Inventor para pt-PT
+
+A tradução dever-se-á aproximar da usada no Scratch o mais possível (e.g., no imperativo, construindo texto tão legível em português quanto possível dado o espaço disponível).
+
+Ficheiros com as mensagens a traduzir:
+
+- blocklyeditor/src/msg/pt_pt/_messages.js 
+- appengine/src/com/google/appinventor/client/OdeMessages_pt_PT.properties
+
+Recursos Importantes:
+
+- [Translate AppInventor to pt-BR forum thread](https://groups.google.com/forum/#!searchin/app-inventor-open-source-dev/Translate$20AppInventor/app-inventor-open-source-dev/-OfKg9a9ld4/-zxPac7LuvgJ)
+- [Contributing to AppInventor 2 -  Step by Step slides](http://josmas.github.io/contributingToAppInventor2)
+- [Commit da tradução de Espanhol como exemplo](https://github.com/mit-cml/appinventor-sources/commit/45a724970bc1f1a858beadfccf305e666eb4ee2e)
+
+Outras referências relevantes:
+
+- [AppInventor source code and README](https://github.com/mit-cml/appinventor-sources)
+- [Developing MIT App Inventor using git and github.com](https://docs.google.com/document/d/1sAw0QObTxTWqRX7GQRCa2z9TIV2r5AKT9UKMFF1acZI/pub)
+- [MIT App Inventor Sources - Contributing Guide](http://appinventor.mit.edu/appinventor-sources/)
+- [How to build App Inventor from the MIT sources](https://docs.google.com/document/pub?id=1Xc9yt02x3BRoq5m1PJHBr81OOv69rEBy8LVG_84j9jc)
+
+Segue-se o README original:
+
 #Welcome to MIT App Inventor
 
 ##Introduction
