@@ -4,8 +4,8 @@ A tradução dever-se-á aproximar da usada no Scratch o mais possível (e.g., n
 
 Ficheiros com as mensagens a traduzir:
 
-- blocklyeditor/src/msg/pt_pt/_messages.js 
-- appengine/src/com/google/appinventor/client/OdeMessages_pt_PT.properties
+- [blocklyeditor/src/msg/pt_pt/_messages.js](https://github.com/CoderDojoLX/appinventor-sources/blob/pt-pt_translation/appinventor/blocklyeditor/src/msg/pt_pt/_messages.js) 
+- [appengine/src/com/google/appinventor/client/OdeMessages_pt_PT.properties](https://github.com/CoderDojoLX/appinventor-sources/blob/pt-pt_translation/appinventor/appengine/src/com/google/appinventor/client/OdeMessages_pt_PT.properties)
 
 Recursos Importantes:
 
