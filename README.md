@@ -1,8 +1,10 @@
 #Tradução do MIT App Inventor para pt-PT
 
-A tradução dever-se-á aproximar da usada no Scratch o mais possível (e.g., no imperativo, construindo texto tão legível em português quanto possível dado o espaço disponível).
+A tradução dever-se-á aproximar o mais possível da usada no [Scratch](https://scratch.mit.edu/) e no [Snap!](https://snap.berkeley.edu/)  (e.g., no imperativo, construindo texto tão legível em português quanto possível dado o espaço disponível). 
 
-Ficheiros com as mensagens a traduzir:
+Usar como referência o documento [Linhas de Orientação da Tradução do Scratch 2.0](https://docs.google.com/document/d/14fb6c3ChDMZr8zJD1GM46tTkgn7uuuDOi4Pxhte7hHQ/edit?usp=sharing)
+
+Ficheiros a traduzir:
 
 - [blocklyeditor/src/msg/pt_pt/_messages.js](https://github.com/CoderDojoLX/appinventor-sources/blob/pt-pt_translation/appinventor/blocklyeditor/src/msg/pt_pt/_messages.js) 
 - [appengine/src/com/google/appinventor/client/OdeMessages_pt_PT.properties](https://github.com/CoderDojoLX/appinventor-sources/blob/pt-pt_translation/appinventor/appengine/src/com/google/appinventor/client/OdeMessages_pt_PT.properties)
