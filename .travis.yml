@@ -13,3 +13,4 @@ deploy:
   provider: gae
   keyfile: "appinventor-ptpt-c39cd7c03d88.json"
   project: "appinventor-ptpt"
+  on: pt-pt_translation
