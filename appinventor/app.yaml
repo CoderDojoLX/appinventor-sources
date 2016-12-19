@@ -1,9 +1,5 @@
-# [START appyaml]
 runtime: java
 env: flex
-
-handlers:
-- url: /.*
-  script: none
-  secure: always
-# [END appyaml]
+service: default
+manual_scaling:
+  instances: 1
