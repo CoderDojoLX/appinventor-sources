@@ -1,0 +1,9 @@
+# [START appyaml]
+runtime: java
+env: flex
+
+handlers:
+- url: /.*
+  script: none
+  secure: always
+# [END appyaml]
