@@ -1,5 +1,2 @@
 runtime: java
 env: flex
-service: appinventor-ptpt
-manual_scaling:
-  instances: 1
