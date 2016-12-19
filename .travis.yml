@@ -14,6 +14,7 @@ before_deploy:
 - mv app.yaml appengine/build/war/
 - cd appengine/build/war/
 deploy:
+  skip_cleanup: true
   provider: gae
   keyfile: "appinventor-ptpt-ed4e8cafcc91.json"
   project: appinventor-ptpt
