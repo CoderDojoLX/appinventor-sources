@@ -8,9 +8,11 @@ before_install:
 before_script: cd appinventor
 script:
 - ant MakeAuthKey
-- ant tests
+- ant
 deploy:
   provider: gae
   keyfile: "appinventor-ptpt-ed4e8cafcc91.json"
   project: appinventor-ptpt
   on: pt-pt_translation
+  verbosity: debug
+  default: true
