@@ -8,7 +8,6 @@ script:
 - ant tests
 deploy:
   provider: gae
-  keyfile: "appinventor-ptpt-c39cd7c03d88.json"
+  keyfile: "../appinventor-ptpt-c39cd7c03d88.json"
   project: "appinventor-ptpt"
-  default: true
   on: pt-pt_translation
