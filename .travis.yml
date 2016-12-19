@@ -9,7 +9,7 @@ before_script: cd appinventor
 script:
 - ant MakeAuthKey
 - ant
-after_script: 
+before_deploy: 
 - cp appinventor-ptpt-ed4e8cafcc91.json appengine/build/war/
 - cd appengine/build/war/
 deploy:
