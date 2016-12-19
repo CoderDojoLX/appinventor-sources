@@ -11,6 +11,7 @@ script:
 - ant
 before_deploy: 
 - cp appinventor-ptpt-ed4e8cafcc91.json appengine/build/war/
+- mv app.yaml appengine/build/war/
 - cd appengine/build/war/
 deploy:
   provider: gae
