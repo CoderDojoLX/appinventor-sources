@@ -12,5 +12,9 @@ script:
 before_deploy:
   - wget https://storage.googleapis.com/appengine-sdks/featured/appengine-java-sdk-1.9.48.zip -O /tmp/gae-sdk.zip
   - unzip /tmp/gae-sdk.zip
-  - ./appengine-java-sdk-1.9.48/bin/appcfg.sh -A appinventor-ptpt --service_account_json_key_file=appinventor-ptpt-ed4e8cafcc91.json update appengine/build/war/
-
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: ./appengine-java-sdk-1.9.48/bin/appcfg.sh -A appinventor-ptpt --service_account_json_key_file=appinventor-ptpt-ed4e8cafcc91.json update appengine/build/war/
+  on:
+    branch: pt-pt_translation
