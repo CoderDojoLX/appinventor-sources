@@ -8,7 +8,7 @@ before_install:
 before_script: cd appinventor
 script:
 - ant MakeAuthKey
-- ant tests
+- ant
 before_deploy:
   - wget https://storage.googleapis.com/appengine-sdks/featured/appengine-java-sdk-1.9.48.zip -O /tmp/gae-sdk.zip
   - unzip /tmp/gae-sdk.zip
