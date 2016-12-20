@@ -9,9 +9,8 @@ before_script: cd appinventor
 script:
 - ant MakeAuthKey
 - ant
-after_success:
+before_deploy:
   - wget https://storage.googleapis.com/appengine-sdks/featured/appengine-java-sdk-1.9.48.zip -O /tmp/gae-sdk.zip
-  - unzip x /tmp/gae-sdk.zip
-  - export PATH=$PATH:$PWD/appengine-java-sdk-1.9.48/bin/
-  - appcfg.sh -A appinventor-ptpt --service_account_json_key_file=appinventor-ptpt-ed4e8cafcc91.json update appengine/build/war/
+  - unzip /tmp/gae-sdk.zip
+  - ./appengine-java-sdk-1.9.48/bin/appcfg.sh -A appinventor-ptpt --service_account_json_key_file=appinventor-ptpt-ed4e8cafcc91.json update appengine/build/war/
 
