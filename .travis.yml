@@ -17,4 +17,4 @@ deploy:
   provider: script
   script: ./appengine-java-sdk-1.9.48/bin/appcfg.sh -A appinventor-ptpt --service_account_json_key_file=appinventor-ptpt-ed4e8cafcc91.json update appengine/build/war/
   on:
-    branch: pt-pt_translation
+    branch: master
