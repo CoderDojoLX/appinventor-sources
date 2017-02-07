@@ -15,12 +15,18 @@ Recursos Importantes:
 - [Contributing to AppInventor 2 -  Step by Step slides](http://josmas.github.io/contributingToAppInventor2)
 - [Commit da tradução de Espanhol como exemplo](https://github.com/mit-cml/appinventor-sources/commit/45a724970bc1f1a858beadfccf305e666eb4ee2e)
 
-Outras referências relevantes:
+Algumas referências relevantes:
 
 - [AppInventor source code and README](https://github.com/mit-cml/appinventor-sources)
 - [Developing MIT App Inventor using git and github.com](https://docs.google.com/document/d/1sAw0QObTxTWqRX7GQRCa2z9TIV2r5AKT9UKMFF1acZI/pub)
 - [MIT App Inventor Sources - Contributing Guide](http://appinventor.mit.edu/appinventor-sources/)
 - [How to build App Inventor from the MIT sources](https://docs.google.com/document/pub?id=1Xc9yt02x3BRoq5m1PJHBr81OOv69rEBy8LVG_84j9jc)
+
+Outros recursos úteis
+
+- [Lista de termos técnicos de informática (Wikipédia)](https://pt.wikipedia.org/wiki/Ajuda:Guia_de_tradu%C3%A7%C3%A3o/Lista_de_termos_t%C3%A9cnicos_de_inform%C3%A1tica)
+- [Dicionário De Informática & Internet Inglês-Português (pdf)](http://comp.ist.utl.pt/aaa/Prog/Dicion%E1rio%20De%20Inform%E1tica%20&%20Internet%20Ingl%EAs-Portugu%EAs.pdf)
+- [Glossário de termos de informática](http://quark.fe.up.pt/orca/index.pt.html)
 
 Segue-se o README original:
 
