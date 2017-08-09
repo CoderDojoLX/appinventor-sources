@@ -27,11 +27,8 @@
     './src/msg/ru/_messages.js',
     './src/msg/sv/_messages.js',
     './src/msg/pt_br/_messages.js',
-<<<<<<< HEAD
     './src/msg/pt_pt/_messages.js',
-=======
     './src/msg/nl/_messages.js',
->>>>>>> 5e072d92c2fb8e05527f2e319218820cc85243a3
     './src/msg/en/_messages.js',
 
     // Lyn's instrumentation code
