@@ -251,8 +251,13 @@ public class TopPanel extends Composite {
       nativeName = MESSAGES.SwitchToSwedish();
     } else if (localeName == "pt_BR") {
       nativeName = MESSAGES.switchToPortugueseBR();
+<<<<<<< HEAD
     } else if (localeName == "pt_PT") {
       nativeName = MESSAGES.SwitchToPortuguesePT();
+=======
+    } else if (localeName == "nl") {
+      nativeName = MESSAGES.switchToDutch();
+>>>>>>> 5e072d92c2fb8e05527f2e319218820cc85243a3
     }
     return nativeName;
   }
@@ -282,14 +287,10 @@ public class TopPanel extends Composite {
     }
     panel.add(logo);
     panel.setCellWidth(logo, "50px");
-    Label title = new Label("MIT App Inventor 2");
-    Label version = new Label("Beta");
+    Label title = new Label("MIT App Inventor");
     title.setStyleName("ode-LogoText");
-    version.setStyleName("ode-LogoVersion");
     VerticalPanel titleContainer = new VerticalPanel();
     titleContainer.add(title);
-    titleContainer.add(version);
-    titleContainer.setCellHorizontalAlignment(version, HorizontalPanel.ALIGN_RIGHT);
     panel.add(titleContainer);
     panel.setCellWidth(titleContainer, "180px");
     panel.setCellHorizontalAlignment(logo, HorizontalPanel.ALIGN_LEFT);
