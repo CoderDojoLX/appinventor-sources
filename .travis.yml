@@ -7,6 +7,7 @@ before_install:
 - sudo apt-get install -y libc6-i386 lib32stdc++6 lib32gcc1 lib32ncurses5 lib32z1
 before_script: cd appinventor
 script:
+- sed  -i "s/<\/title>/ - $(date)<\/title>/" appengine/war/login.jsp
 - ant MakeAuthKey
 - ant
 before_deploy:
