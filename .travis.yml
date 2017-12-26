@@ -1,4 +1,5 @@
 language: java
+dist: precise
 before_install:
 - openssl aes-256-cbc -K $encrypted_4acda2ae39ca_key -iv $encrypted_4acda2ae39ca_iv
   -in appinventor-ptpt-ed4e8cafcc91.json.enc -out appinventor/appinventor-ptpt-ed4e8cafcc91.json
